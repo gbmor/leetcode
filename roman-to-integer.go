@@ -3,14 +3,14 @@
 //		ben@gbmor.dev
 package leetcode
 
-var roman = map[string]int{
-	"I": 1,
-	"V": 5,
-	"X": 10,
-	"L": 50,
-	"C": 100,
-	"D": 500,
-	"M": 1000,
+var roman = map[rune]int{
+	'I': 1,
+	'V': 5,
+	'X': 10,
+	'L': 50,
+	'C': 100,
+	'D': 500,
+	'M': 1000,
 }
 
 // romanToInt() takes a string Roman Numeral as input
@@ -20,8 +20,8 @@ var roman = map[string]int{
 // 100% of submissions for this exercise.
 func romanToInt(s string) int {
 	var num int
-	for i, e := range []byte(s) {
-		num += roman[string(e)]
+	for i, e := range s {
+		num += roman[e]
 		if i > 0 {
 			if (e == 'X' || e == 'V') && s[i-1] == 'I' {
 				num -= 2
