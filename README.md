@@ -1,2 +1,2 @@
 # leetcode
-leetcode.com challenges
+[leetcode.com](https://leetcode.com/gbmor) challenges
