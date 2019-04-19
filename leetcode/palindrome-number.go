@@ -3,6 +3,8 @@
 //		ben@gbmor.dev
 package leetcode
 
+import "math"
+
 // isPalindrome() takes an int as an argument,
 // reverses the integer, and compares to the
 // original. If the same, return true.

@@ -3,6 +3,8 @@
 //		ben@gbmor.dev
 package leetcode
 
+import "math"
+
 // reverse() takes a signed integer as input, returning the same integer reversed.
 // If the reversed integer will overflow a signed int32, returns 0.
 //	On leetcode.com, ran in 4ms using 2.1MB memory, faster than 100%
